@@ -18,6 +18,7 @@ function App() {
       <BrowserRouter>
       <Navigation />
       <Routes>
+        
         <Route element={<Privtecomponent /> }>
         <Route path='/' element={<Home/>} />
         <Route path='/addproduct'element={<Addproduct/>} />
