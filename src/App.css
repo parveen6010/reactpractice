@@ -1,12 +1,54 @@
-.App {
+
+.nav-bar li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-bar{
+  margin: 0;
+  padding: 5px;
+  background-color: skyblue;
+} 
+
+.nav-bar li a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+
+}
+.footer-tap{
+  position: absolute;
+  bottom: 0;
   text-align: center;
+  width: 95%;
+  background-color: skyblue;
+  padding: 30px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ragistration{
+  margin-left: 30%;
 }
 
+.inputfild{ 
+    display: block;
+    margin: 25px;
+    padding: 7px;
+    width: 300px;
+    border: 1px solid skyblue;
+
+  }
+
+.butn{
+  margin-left: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: skyblue;
+  border: 1px solid;
+  cursor: pointer;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
